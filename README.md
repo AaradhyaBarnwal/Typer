@@ -9,6 +9,7 @@
 <li>to restart click on the
 <li>restart button
 <li>once everything is done and you have clicked the button
+<li>the start button can also be used as resume button
 <li>A card will appear
 <li>with wpm(word per minute)
 <li>and errors
