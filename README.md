@@ -14,6 +14,8 @@
 <li>with wpm(word per minute)
 <li>and errors
 
+note: please only click the start button once and wait if it doesn't starts then only click again it speeds up the timer 
+
 <h2>how I made it:</h2>
 <li>languages:js, css and html
 <li>code studio:vs code
