@@ -1,0 +1,112 @@
+body{
+    background-color: #66A3BF;
+    display: grid;
+    padding: 30px;
+}
+
+.textContainer{
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+    border: 2px rgb(0, 0, 0) solid;
+    color: rgb(14, 40, 67);
+    width: 650px;
+    padding: 15px;
+    font-family: "Elms Sans", sans-serif;;
+    font-size: medium;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    background-color: #C7D9DD;
+    padding-top: 5px;
+    box-shadow: #00334a6a 25px 25px 25px;
+}
+
+.timerBox{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.srt{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: flex-start;
+    align-content: start;
+}
+
+.times{
+    display: grid;
+    font-family: "Elms Sans",sans-serif;
+    gap: 0;
+    grid-auto-flow: column;
+    padding: 15px;
+    padding-top: 18px;
+}
+
+.userInput input{
+    background-color: rgb(40, 47, 56);
+    border: 2px rgb(201, 216, 193) dashed;
+    width: 600px;
+    color: cornsilk;
+    padding: 5px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.userInput{
+    padding: 15px;
+    color: cornsilk;
+}
+
+.good{
+    width: 300px;
+    height: 300px;
+    color: rgb(5, 5, 5);
+    background-color: whitesmoke;
+    border: 5px solid rgb(47, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 10px;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-self: center;
+    justify-self: center;
+}
+
+.good h4{
+    color: rgb(9, 9, 9);
+    font-family:  sans-serif;
+    font-weight: 400px;
+}
+
+.sym{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    background-color: rgb(193, 186, 221);
+    color: black;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgb(195, 170, 170) 25px;
+}
+
+.button:active{
+    background-color: #66A3BF;
+}
