@@ -107,6 +107,7 @@ body{
     box-shadow: rgb(195, 170, 170) 25px;
 }
 
-.button:active{
-    background-color: #66A3BF;
+h5:hover{
+    text-shadow: #0c2733 15px 15px 15px;
+
 }
